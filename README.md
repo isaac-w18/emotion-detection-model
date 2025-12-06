@@ -31,6 +31,7 @@ The final quantitative results (accuracy scores, confusion matrices, and inferen
 
 ## Video Links:
 Non-Technical Walkthrough: https://drive.google.com/file/d/13S7kswFVFdNxEfBcxRxpKYf1e1mYQicH/view?usp=sharing
+
 Technical Walkthrough: https://drive.google.com/file/d/1Vy3V0svmH3IAGNZwaJwn8THuP4V9WbX_/view?usp=sharing
 
 ## Evaluation:
