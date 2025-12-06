@@ -34,8 +34,8 @@ All packages are installed via `pip` (as detailed in `requirements.txt`).
 | Model / Architecture | Source | Notes |
 | :--- | :--- | :--- |
 | **Vision Transformer (ViT-Base)** | Loaded via `timm` with ImageNet pre-trained weights. | The base model for the fine-tuning experiments (with and without segmentation). |
-| **FCN-ResNet50 Segmentation** | Loaded via `torchvision.models.segmentation`. | Used to generate the facial segmentation mask (Class 15: Person) for the image "cleaning" experiment. Uses weights pre-trained on COCO/Pascal VOC. |
-| **CLIP** (`ViT-B/32`) | Loaded via the `clip` library. | Used for the zero-shot baseline, requiring no fine-tuning on the FER2013 dataset. |
+| **FCN-ResNet50 Segmentation** | Loaded via `torchvision.models.segmentation`. | Used to generate the facial segmentation mask (Class 15: Person) for the image cleaning part of the project. |
+| **CLIP** (`ViT-B/32`) | Loaded via the `clip` library. | Used for the zero-shot baseline, not fine-tuned on FER2013 dataset. |
 
 ---
 
