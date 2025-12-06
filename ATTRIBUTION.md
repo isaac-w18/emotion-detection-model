@@ -16,14 +16,13 @@ This document provides detailed attribution for all code, libraries, models, and
 
 All packages are installed via `pip` (as detailed in `requirements.txt`).
 
-| Library Name | Purpose | Primary Citation/Source |
+| Library Name | Purpose | Primary Source |
 | :--- | :--- | :--- |
-| **PyTorch** (`torch`, `torchvision`) | Core deep learning framework and computer vision utilities. | [PyTorch: An Imperative Style, High-Performance Deep Learning Library](https://pytorch.org/) |
+| **PyTorch** (`torch`, `torchvision`) | Core deep learning framework and computer vision utilities. | PyTorch: An Imperative Style, High-Performance Deep Learning Library|
 | **timm** (`timm`) | Provides the Vision Transformer (ViT) architecture and pre-trained weights. | [PyTorch Image Models (timm)](https://github.com/huggingface/pytorch-image-models) |
 | **CLIP** (Custom Install) | Used for the Zero-Shot Classification baseline experiment. | [OpenAI CLIP GitHub Repository](https://github.com/openai/CLIP) |
 | **transformers** | Used for managing dependencies and potentially tokenizers/utilities for CLIP or other models. | [Hugging Face Transformers](https://huggingface.co/docs/transformers/index) |
-| **scikit-learn** (`sklearn.metrics`) | Used for computing and displaying quantitative metrics (Confusion Matrices, Classification Report). | [scikit-learn: Machine Learning in Python](https://scikit-learn.org/stable/) |
-| **Seaborn/Matplotlib** | Used for data visualization and plotting the confusion matrices. | [Seaborn: Statistical data visualization](https://seaborn.pydata.org/) |
+| **scikit-learn** (`sklearn.metrics`) | Used for computing and displaying quantitative metrics (Confusion Matrices, Classification Report). | scikit-learn: Machine Learning in Python](https://scikit-learn.org/stable/| **Seaborn/Matplotlib** | Used for data visualization and plotting the confusion matrices. | [Seaborn: Statistical data visualization](https://seaborn.pydata.org/) |
 | **Tqdm** | Used for displaying progress bars during the training and evaluation loops. | [tqdm: A Fast, Extensible Progress Bar for Python](https://github.com/tqdm/tqdm) |
 | **Pillow, NumPy** | Standard Python libraries for image handling and numerical operations. | [Pillow (PIL Fork)](https://python-pillow.org/) / [NumPy](https://numpy.org/) |
 
