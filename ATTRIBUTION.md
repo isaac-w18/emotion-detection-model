@@ -6,9 +6,9 @@ This document provides detailed attribution for all code, libraries, models, and
 
 ## 1. Datasets
 
-| Resource Name | Source / Original URL | License | Notes |
+| Resource Name | Source / Original URL | Notes |
 | :--- | :--- | :--- | :--- |
-| **FER2013 Dataset** | [Kaggle: Challenges in Representation Learning Facial Expression Recognition Challenge (FER2013)](https://www.kaggle.com/datasets/msambare/fer2013) | Competition-specific/Public Domain (Widely used) | Used for training and evaluating the emotional detection models. The images are stored locally in the `labeled_images/` directory. |
+| **FER2013 Dataset** | [Kaggle: Challenges in Representation Learning Facial Expression Recognition Challenge (FER2013)](https://www.kaggle.com/datasets/msambare/fer2013) | Used for training and evaluating the emotional detection models. The images are stored locally in the `labeled_images/` directory. |
 
 ---
 
