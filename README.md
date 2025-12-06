@@ -51,5 +51,5 @@ Pre-Trained CLIP Eval Accuracy (w/ Segmentation): 36.99%
 ### Qualitative Assessment:
 Image segmentation made a very slight positive difference in evaluation accuracy of the fine-tuned ViT. It made a large negative difference in pre-trained CLIP, likely because the images CLIP was trained on were not segmented.
 
-My next exploration question is to consider fine-tuning a ViT on already segmented images, in addition to segmenting the images at inference time, to see whether this would be beneificial to increasing accuracy rate.
+My next exploration question is to consider fine-tuning a ViT on already segmented images, in addition to segmenting the images at inference time, to see whether this would be beneficial to increasing accuracy rate.
 
