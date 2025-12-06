@@ -30,7 +30,8 @@ The model will load the weights from the models/ directory.
 The final quantitative results (accuracy scores, confusion matrices, and inference times) are reported in the notebook.
 
 ## Video Links:
-a Video Links section with direct links to your demo and technical walkthrough videos,
+Non-Technical Walkthrough: https://drive.google.com/file/d/13S7kswFVFdNxEfBcxRxpKYf1e1mYQicH/view?usp=sharing
+Technical Walkthrough: https://drive.google.com/file/d/1Vy3V0svmH3IAGNZwaJwn8THuP4V9WbX_/view?usp=sharing
 
 ## Evaluation:
 
