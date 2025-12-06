@@ -34,5 +34,22 @@ a Video Links section with direct links to your demo and technical walkthrough v
 
 ## Evaluation:
 
-an Evaluation section that presents any quantitative results, accuracy metrics, or qualitative outcomes from testing,
+### Quantitative Results:
+ViT Val Accuracy after 1st Epoch: 64.59%
+Fine-Tuned ViT Test Accuracy (w/o Segmentation): 68.11%
+<img width="652" height="581" alt="Screenshot 2025-12-06 at 3 35 46 PM" src="https://github.com/user-attachments/assets/f7293b5b-995b-4df1-81aa-f09a3a1952da" />
+
+Fine-Tuned ViT Test Accuracy (w/ Segmentation): 68.47%
+<img width="654" height="581" alt="Screenshot 2025-12-06 at 3 36 03 PM" src="https://github.com/user-attachments/assets/53696a06-fb26-4ad9-87e0-c405d8b68ffd" />
+
+Pre-Trained CLIP Eval Accuracy (w/o Segmentation): 49.81%
+<img width="662" height="617" alt="Screenshot 2025-12-06 at 3 36 23 PM" src="https://github.com/user-attachments/assets/2b39ad1b-5628-4d88-b201-d164b4b71026" />
+
+Pre-Trained CLIP Eval Accuracy (w/ Segmentation): 36.99%
+<img width="667" height="612" alt="Screenshot 2025-12-06 at 3 36 40 PM" src="https://github.com/user-attachments/assets/7f2dd98c-9c25-4930-b346-d1b1f3e500a2" />
+
+### Qualitative Assessment:
+Image segmentation made a very slight positive difference in evaluation accuracy of the fine-tuned ViT. It made a large negative difference in pre-trained CLIP, likely because the images CLIP was trained on were not segmented.
+
+My next exploration question is to consider fine-tuning a ViT on already segmented images, in addition to segmenting the images at inference time, to see whether this would be beneificial to increasing accuracy rate.
 
