@@ -46,3 +46,19 @@ The dataset is stored in `labeled_images.zip`.
     unzip labeled_images.zip
     *(Note: This creates the `labeled_images` directory that the notebook uses for loading the dataset.)*
 
+## 4. Running the Project and Testing
+
+The entire pipeline, from data loading to evaluation, is run from the single notebook.
+
+Step 4.1: Launch Jupyter
+
+Launch Jupyter Lab or Notebook from the project's root directory.
+
+Step 4.2: Run Evaluation
+Open the Emotional Detection.ipynb notebook.
+
+The model architecture is defined in the external script models/emotion_model.py and will be loaded by the notebook.
+
+Execute all cells sequentially (e.g., using Run -> Run All Cells from the menu).
+
+The final project evaluation results, including the confusion matrices and accuracy scores for all three experiments (ViT, ViT+Seg, CLIP), are displayed.
