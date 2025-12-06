@@ -42,6 +42,7 @@ All packages are installed via `pip` (as detailed in `requirements.txt`).
 
 | Code Section | Description | Notes |
 | :--- | :--- | :--- |
-| **`models/emotion_model.py`** | Model configuration and loading script. | The functions `add_lora_to_linear` and `get_model` were consolidated from the notebook code to meet project structure requirements. |
-| **`simple_seg_clean` function** | Segmentation processing logic (Cell [14]). | Custom function created to integrate the FCN-ResNet50 model, normalize inputs, apply the 'Person' mask, and return the cleaned image batch. |
-| **Evaluation Functions** | Functions for training loop, validation, and generating confusion matrices. | Standard PyTorch practices adapted for the ViT/LoRA model, including early stopping logic and inference time calculation. |
+| **`models/emotion_model.py`** | Model configuration and loading script. | The functions `add_lora_to_linear` and `get_model` were consolidated by Gemini from the notebook code to meet project structure requirements. |
+| **`simple_seg_clean` function** | Segmentation processing logic (Cell [14]). | Custom function created with Gemini helping to integrate the FCN-ResNet50 model, normalize inputs, apply the 'Person' mask, and return the cleaned image batch. |
+| **Evaluation Functions** | Functions for training loop, validation, and generating confusion matrices. | Standard PyTorch practices adapted for the ViT/LoRA model, including early stopping logic and inference time calculation, assisted by Gemini 3. |
+| **CLIP Usage** | Code for downloading, using, and evaluating CLIP | Largely assisted with Gemini 3 for syntax purposes general outline, with corrections and adjustments by me to apply segmentation. |
